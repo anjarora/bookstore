@@ -1,0 +1,15 @@
+server:
+  port: 19780
+  servlet:
+    context-path: /book-service
+
+management:
+  server:
+    port: 19781
+
+
+mongo:
+  server:
+    list: http://127.0.0.1:27017
+  dbname: bookstore
+
